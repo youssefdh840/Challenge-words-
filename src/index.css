@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  --passage-bg: #0B0C10;
+  --passage-surface: rgba(255, 255, 255, 0.03);
+  --passage-border: rgba(255, 255, 255, 0.1);
+  --passage-border-strong: rgba(255, 255, 255, 0.18);
+  --passage-text: #FFFFFF;
+  --passage-text-muted: #9CA3AF;
+  --passage-text-light: #6B7280;
+  --passage-accent-amber: #E5A93C;
+  --passage-accent-cyan: #00F2FE;
+  --passage-accent-stone: #1F2937;
+  color-scheme: dark;
+}
+
+.dark {
+  --passage-bg: #0B0C10;
+  --passage-surface: rgba(255, 255, 255, 0.03);
+  --passage-border: rgba(255, 255, 255, 0.1);
+  --passage-border-strong: rgba(255, 255, 255, 0.18);
+  --passage-text: #FFFFFF;
+  --passage-text-muted: #9CA3AF;
+  --passage-text-light: #6B7280;
+  --passage-accent-amber: #E5A93C;
+  --passage-accent-cyan: #00F2FE;
+  --passage-accent-stone: #1F2937;
+  color-scheme: dark;
+}
+
+/* Editorial Typography Helpers */
+.font-display {
+  font-family: 'Syne', system-ui, -apple-system, sans-serif;
+}
+
+.font-editorial {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* 3D Flip Card Utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(120, 113, 108, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(120, 113, 108, 0.45);
+}
