@@ -1,0 +1,8 @@
+{
+  "name": "World Challenge",
+  "description": "Interactive educational and social multiplayer 1v1 game discovering world cultures with a virtual passport system, real-time duels, and complete Terminale CS architecture.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
